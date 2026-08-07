@@ -1,4 +1,4 @@
-# 🎮 Voe Corvo 
+# Voe Corvo 🎮
 
 Jogo desenvolvido em **Python**, onde o jogador controla um corvo que voa sem fim por um cenário repleto de obstáculos gerados automaticamente. 
 
