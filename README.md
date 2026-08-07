@@ -6,8 +6,7 @@ Jogo desenvolvido em **Python**, onde o jogador controla um corvo que voa sem fi
 
 ## 📸 Preview
 
-<img src="ManuBg.png" alt="voe-corvo" width="100%">
----
+<img src="MenuBg.png" alt="voe-corvo" width="50%">
 
 ## 🚀 Historia
 
@@ -19,7 +18,7 @@ Baseado no clássico Flappy Bird, Voe Corvo é um jogo side-scroller onde o joga
 
 | Tecnologia | Uso |
 |------------|-----|
-| **C#** | Linguagem principal |
+| **Python** | Linguagem principal |
 | **WPF** | Interface gráfica nativa Windows |
 | **XAML** | Definição do layout visual |
 | **.NET SDK** | Plataforma de execução |
