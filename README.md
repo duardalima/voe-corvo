@@ -1,4 +1,4 @@
-# Voe Corvo 🎮
+# 🎮 Voe Corvo 
 
 Jogo desenvolvido em **Python**, onde o jogador controla um corvo que voa sem fim por um cenário repleto de obstáculos gerados automaticamente. 
 
@@ -19,24 +19,33 @@ Baseado no clássico Flappy Bird, Voe Corvo é um jogo side-scroller onde o joga
 | Tecnologia | Uso |
 |------------|-----|
 | **Python** | Linguagem principal |
-| **WPF** | Interface gráfica nativa Windows |
-| **XAML** | Definição do layout visual |
-| **.NET SDK** | Plataforma de execução |
-| **Backtracking** | Geração e validação de puzzles |
-| **Fisher-Yates Shuffle** | Embaralhamento para puzzles únicos |
-| **async/await** | Geração em background sem travar a UI |
-| **DispatcherTimer** | Cronômetro em tempo real |
+| **Pygame** | Biblioteca gráfica e de áudio |
+| **PNG Art** | Banco de sprites 2D com imagens PNG transparentes para personagens, cenários e obstáculos. |
+| **CraftPix** | Banco de assets gráficos |
 
 ---
 
 ## 📁 Estrutura do projeto
 
 ```
-SudokuWPF/
-├── SudokuEngine.cs       # Lógica do jogo (geração, validação, solução)
-├── MainWindow.xaml       # Interface gráfica (layout e estilos)
-├── MainWindow.xaml.cs    # Conexão entre interface e lógica
-└── SudokuWPF.csproj      # Configuração do projeto .NET
+VoeCorvo/
+├── main.py                          # Arquivo principal do jogo
+├── assets/                          # Pasta com todos os recursos do jogo
+│   ├── sprites/                     # Imagens do jogo
+│   │   ├── Background.png           # Plano de fundo
+│   │   ├── Base.png                 # Chão
+│   │   ├── Corvinho_DOWN.png        # Sprite do corvo com asas para baixo
+│   │   ├── Corvinho_MEIO.png        # Sprite do corvo com asas no meio 
+│   │   ├── Corvinho_UP.png          # Sprite do corvo com asas para cima
+│   │   ├── Game_Over.png            # Tela de fim de jogo
+│   │   ├── MenuBg.png               # Tela de menu inicial
+│   │   └── pipe-red.png             # Obstáculo
+│   └── sounds/                      # Áudios do jogo
+│       ├── Menu.mp3                 # Música da tela de menu
+│       ├── hit.ogg                  # Som de colisão 
+│       └── jump.ogg                 # Som ao pular 
+├── main.exe                         # Executável do jogo
+
 ```
 
 ---
@@ -51,9 +60,4 @@ SudokuWPF/
 
 ## 📚 O que aprendi
 
-- Algoritmo de **backtracking** para geração e resolução de puzzles
-- Criação de **interfaces gráficas** com WPF e XAML
-- Uso de **async/await** para não travar a UI durante processamentos pesados
-- Organização de código separando **lógica** da **interface**
-- Estruturas de dados como **matrizes bidimensionais** e **listas de tuplas**
-- Controle de versão com **Git e GitHub**
+Aprendi a utilizar a linguagem Python para jogos, mecânicas de jogos 2D, análise de estrutura de projetos, formatos de arquivo, documentação profissional.
